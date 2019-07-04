@@ -1,0 +1,1 @@
+D:\programme\gnuplot\binary\gnuplot.exe -e "file='D:\\temp\\hzgdaten\\20110111.dat'" D:\\test\\hzg_png.plt

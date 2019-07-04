@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+
+<head>
+   <title>F-Heizung</title>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="refresh" content="180; URL=http://fnet.selfhost.me/index.html" />
+ <style type="text/css">
+ <!--
+ h1 {
+   font-size: 18pt; 
+   font-family:Arial, "Arial", sans-serif;
+ }
+
+ h2 {
+   font-size:14pt;
+   font-family:Arial, "Arial", sans-serif;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 7px;
+   }
+ p {  
+  	font-size:14pt;                        
+    font-family:Arial, "Arial", sans-serif;   
+ }
+ h2.klein {
+   font-size:12pt; 
+   font-family:Arial, "Arial", sans-serif;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 5px;  
+ }
+  
+ div.normal {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    background-color: silver;
+ }
+ div.klein {
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    background-color: silver; 
+ }
+ div.anaus {
+   width: 56px;
+   height: 35px;
+   position: absolute;  
+ }
+ table {
+     table-layout: fixed;
+ }
+ tr {
+     height: 16pt;
+    }
+ td {
+    height: 16pt;
+    font-size: 12pt;
+    font-family: Arial; 
+    }   
+ -->                  
+</style>
+
+</head>
+<body>
+
+<h1> Heizung <span style='margin-left:400px; margin-top:0px;font-size: smaller;'> 
+        Stand:  ~01  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ~02 &nbsp; &nbsp; 
+        <a href="plot.html"> Plot</a></span>
+</h1>
+
+<span style='position:absolute; margin-left:58px; margin-top:52px;
+ width:680px;height:312px'>                                                     
+	<img width=680 height=312 src="image002.png" alt=""/>                  
+</span>	                                                                    
+<br clear=all />
+
+
+<!-- Abgas-Temp. -->
+<div class=normal style="margin-top:0px; margin-left:305px; background-color:#FFCC00;">  
+ <h2>~04 °C</h2>
+</div>
+ 
+<!-- VL-Temp. -->
+<div class=normal style="margin-top: 0px; margin-left:150px;" >
+    <h2>~07°C</h2>
+</div>
+
+<!-- <RL-Temp. -->
+<div class=normal style="margin-top: 0px; margin-left: 30px;" >   
+    <h2>~06°C</h2>                                                
+</div>                                                            
+
+<!-- Ansaugtemp für BWWP -->
+<div class=klein style="margin-top: 0px; margin-left: 670px;background-color: #A7A79E;">  
+    <h2 class=klein>~20°C</h2>                                               
+</div>                                                           
+
+<!-- Ausblastemp für BWWP -->
+<div class=klein style="margin-top: 55px; margin-left: 600px;" >
+    <h2 class=klein>~21°C</h2>
+</div>
+
+ <!-- WW-Temp in Speicher -->
+<div class=klein style="margin-top: 195px; margin-left: 645px; background-color: #00CCFF;" >
+    <h2 class=klein>~09°C</h2>
+</div>
+
+<!-- Kessel-Temp. -->
+<div class=normal style="margin-top: 160px; margin-left: 302px; background-color: transparent;" >
+    <h2 style="color:yellow;">~08°C</h2>
+</div>
+
+<!-- Umwälzpumpe -->
+<div class=anaus style="margin-top: 110px; margin-left: 230px; background-color: §c11" >
+    <h2 class=klein >§11</h2>
+</div>
+
+<!-- Ladepumpe Speicher -->
+<div class=anaus style="margin-top: 200px; margin-left: 495px; background-color: §c10" >
+    <h2 class=klein >§10</h2>
+</div>
+ 
+<!-- Kompressor BWWP -->
+<div class=anaus style="margin-top: 140px; margin-left: 590px; background-color: §c09" >
+    <h2 class=klein >§09</h2>
+</div> 
+
+<!-- Brennerlauf  -->
+<div class=anaus style="margin-top: 270px; margin-left: 330px; background-color: §c08" >
+    <h2 class=klein >§08</h2>
+</div>
+
+<!-- Durchfluss -->
+<div class=klein style="margin-top: 205px; margin-left: 103px" >
+    <h2 class=klein>1111 l/h</h2>
+</div>
+
+
+<!-- Tabellen -->
+<!-- Tabelle Temperaturen -->
+<div  style='position:absolute; margin-top: 330px; margin-left: 20px'>
+<table summary="">
+    <col  style='width:135pt;'/>
+    <col  style='width:53pt;'/>
+    <tr><td height=20 style="font-size:14.0pt;font-weight:bold">Temperaturen</td><td ></td></tr>
+    <tr><td>Aussen aktuell:</td><td>xxx°C</td></tr>
+    <tr><td>Aussen lang:</td><td>~13°C</td></tr>
+    <tr><td>Aussen Tagesmittel:</td>	<td >~14°C</td></tr>
+    <tr><td></td><td></td></tr>
+    <tr><td>Wohnzimmer akt.:</td><td >~10°C</td></tr>
+    <tr><td>Wohnzimmer lang:</td>	<td >~11°C</td></tr>
+    <tr><td>Raum-Soll:</td><td>~23°C</td></tr> 
+    <tr><td>Raum oben:</td><td>~12°C</td></tr>
+    <tr><td></td><td></td></tr>
+    <tr><td>RL-Sollwert:</td><td>~05°C</td></tr>
+</table>
+</div>
+<!-- Tabelle Status -->
+<div  style='position:absolute; margin-top: 330px; margin-left: 400px'>
+   <table summary="">
+    <col  style='height: 20pt; width:130pt;'/>
+    <col  style='height: 20pt; width:135pt;'/>
+    <tr><td height=20 style="font-size:14.0pt;font-weight:bold">Status:</td><td></td></tr>
+    <tr><td >Schaltuhr Hzg:</td><td>§01</td></tr>
+    <tr><td>Schaltuhr WW:</td><td>§02</td></tr>
+    <tr><td></td><td ></td></tr>
+    <tr><td>Hzg:</td><td >§03</td></tr>
+    <tr><td>BWWP:</td><td >§04</td></tr>
+    <tr><td>WW:</td><td >§05</td></tr>
+    <tr><td>Kamin:</td><td>§06</td></tr>
+    <tr><td>Frost/Übergang:</td><td>§07</td></tr>
+   </table>
+</div>
+
+</body>
+
+</html>
