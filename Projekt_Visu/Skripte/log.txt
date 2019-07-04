@@ -1,6 +1,0 @@
-2011.01.18  20:12:27  gnuplot-Error!
-2011.01.18  20:15:40  gnuplot-Error!
-2011.01.18  20:18:50  gnuplot-Error!
-2011.01.18  20:23:39  gnuplot-Error!
-2011.01.18  20:26:25  gnuplot-Error!
-2011.01.18  20:29:24  gnuplot-Error!
